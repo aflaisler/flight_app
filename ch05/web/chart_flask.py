@@ -6,7 +6,7 @@ from bson import json_util
 app = Flask(__name__)
 client = MongoClient()
 
-# Chapter 5 controller: Fetch a flight and display it
+# Chapter 5 controller: Fetch a flight and display it 
 @app.route("/on_time_performance")
 def on_time_performance():
   
