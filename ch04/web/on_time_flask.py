@@ -17,10 +17,9 @@ def on_time_performance():
   flight = client.agile_data_science.on_time_performance.find_one({
     'Carrier': carrier,
     'FlightDate': flight_date,
-    'FlightNum': int(flight_num)
+    'FlightNum': str(flight_num)
   })
   
-  return json_util.dumps(flight)
-
+  return render_template('flight.html', flight=flight)
 if __name__ == "__main__":
   app.run(debug=True)

@@ -5,7 +5,7 @@ c = get_config()
 # Run on all IP addresses of your instance
 c.NotebookApp.ip = '*'
 # Don't open browser by default
-c.NotebookApp.open_browser = False  
+c.NotebookApp.open_browser = False
 # Fix port to 8888
 c.NotebookApp.port = 8888
 # Disable token authentication
