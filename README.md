@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Agile_Data_Code_2
 
 Code for [Agile Data Science 2.0](http://shop.oreilly.com/product/0636920051619.do), O'Reilly 2017. Now available at the [O'Reilly Store](http://shop.oreilly.com/product/0636920051619.do), on [Amazon](https://www.amazon.com/Agile-Data-Science-2-0-Applications/dp/1491960116) (in Paperback and Kindle) and on [O'Reilly Safari](https://www.safaribooksonline.com/library/view/agile-data-science/9781491960103/). Also available anywhere technical books are sold!
@@ -165,3 +166,6 @@ We demonstrate summarizing an entity with an airplane fleet page which describes
 We create an entire realtime predictive system with a web front-end to submit prediction requests.
 
 ![Predicting Flight Delays UI](images/predicting_flight_kafka_waiting.png)
+=======
+# flight_app
+>>>>>>> ee935bd7c00725262d27278266c7684aec2f0c4b
